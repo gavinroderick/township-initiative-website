@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "The Township Initiative",
   "version": "0.0.1",
   "description": "Gatsby.js V2 starter template based on Grayscale by startbootstrap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
+    "url": "git+https://github.com/gavinroderick/township-initiative-website.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Gavin Roderick",
+    "email": "gavin.roderick26@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",

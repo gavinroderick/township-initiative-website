@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <footer className="bg-black small text-center text-white-50">
       <div className="container">
-        Copyright &copy; Gatsby-starter-grayscale 2019
+        <a className="credits" href="https://github.com/gavinroderick">Website made with <i class="far fa-heart"></i> by Gavin Roderick</a> - Powered by Gatsby
+      </div>
+      <div className="container">
+      Copyright &copy; The Township Initiative 2019
       </div>
     </footer>
   );
