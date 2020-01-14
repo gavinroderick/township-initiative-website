@@ -67,7 +67,7 @@ export default class Header extends Component {
                   type="id"
                   element="about"
                 >
-                  <a className="nav-link" href="#about">
+                  <a className="nav-link" id="about" href="#about">
                     About
                   </a>
                 </Scroll>
@@ -78,7 +78,7 @@ export default class Header extends Component {
                   type="id"
                   element="projects"
                 >
-                  <a className="nav-link" href="#projects">
+                  <a className="nav-link" id="projects" href="#projects">
                     Projects
                   </a>
                 </Scroll>
@@ -89,7 +89,7 @@ export default class Header extends Component {
                   type="id"
                   element="signup"
                 >
-                  <a className="nav-link" href="#signup">
+                  <a className="nav-link" id="contact" href="#signup">
                     Contact
                   </a>
                 </Scroll>

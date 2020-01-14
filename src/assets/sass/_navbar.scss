@@ -37,38 +37,94 @@
     transition: background-color 0.3s ease-in-out;
     .navbar-brand {
       padding: .5rem 0;
-      color: fade-out($white, .5);
+      color: fade-out($white, .15);
     }
-    .nav-link {
+    .nav-link#about{
       transition: none;
       padding: 2rem 1.5rem;
-      color: fade-out($white, .5);
+      color: fade-out($flg-green, .15);
       &:hover {
-        color: fade-out($white, .25);
+        color: fade-out($flg-green, .05);
       }
       &:active {
-        color: white;
+        color: $flg-green;
+      }
+    }
+    .nav-link#contact{
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: fade-out($flg-blue, .15);
+      &:hover {
+        color: fade-out($flg-blue, .05);
+      }
+      &:active {
+        color: $flg-blue;
+      }
+    }
+    .nav-link#projects{
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: fade-out($flg-red, .15);
+      &:hover {
+        color: fade-out($flg-red, .05);
+      }
+      &:active {
+        color: $flg-red;
       }
     }
     &.navbar-shrink {
-      background-color: $white;
+      background-color: $flg-gold;
       .navbar-brand {
-        color: $black;
+        color: $white;
       }
-      .nav-link {
-        color: $black;
+      .nav-link#about{
+        color: $flg-green;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
-          color: $primary;
+          color: $flg-green;
         }
         &:active {
-          color: darken($primary, 15%);
+          color: darken($flg-green, 15%);
         }
         &.active {
-          color: $primary;
+          color: $flg-green;
           outline: none;
-          border-bottom: 0.25rem solid $primary;
+          border-bottom: 0.25rem solid $flg-green;
+        }
+      }
+
+      .nav-link#contact{
+        color: $flg-blue;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+        &:hover {
+          color: $flg-blue;
+        }
+        &:active {
+          color: darken($flg-blue, 15%);
+        }
+        &.active {
+          color: $flg-blue;
+          outline: none;
+          border-bottom: 0.25rem solid $flg-blue;
+        }
+      }
+
+      .nav-link#projects{
+        color: $flg-red;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+        &:hover {
+          color: $flg-red;
+        }
+        &:active {
+          color: darken($flg-red, 15%);
+        }
+        &.active {
+          color: $flg-red;
+          outline: none;
+          border-bottom: 0.25rem solid $flg-red;
         }
       }
     }

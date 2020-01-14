@@ -1,10 +1,23 @@
-.projects-section {
+.projects-section#projects {
+  // background: linear-gradient(
+  //     to bottom,
+  //     #{fade-out($flg-green, .1)} 95%,
+  //     #{fade-out($flg-blue, 0.5)} 75%,
+  //     #{fade-out($flg-blue, 0.1)} 95%
+  //   ),
+  //   url('../images/bg-signup.jpg');
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($flg-green, .1)},
+      #{fade-out($flg-green, .1) 50%},
+      $flg-blue),
+      url('../images/bg-signup.jpg');
   padding: 6rem 0;
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
+      border-left: 0.5rem solid $flg-gold;
     }
   }
   .project-text {
@@ -13,10 +26,34 @@
     @media (min-width: 992px) {
       padding: 5rem;
       hr {
-        border-color: $primary;
+        border-color: $flg-gold;
         border-width: .25rem;
         width: 30%;
       }
     }
   }
 }
+
+.projects-section#about-us {
+  padding: 6rem 0;
+  .featured-text {
+    padding: 2rem;
+    @media (min-width: 992px) {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid $flg-gold;
+    }
+  }
+  .project-text {
+    padding: 3rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $flg-gold;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+}
+

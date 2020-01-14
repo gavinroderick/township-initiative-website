@@ -21,3 +21,48 @@
     background-color: darken($primary, 15%) !important;
   }
 }
+
+.btn-red {
+  color: white;
+  background-color: $flg-red;
+  &:hover {
+    background-color: darken($flg-red, 10%);
+  }
+  &:focus {
+    background-color: darken($flg-red, 10%);
+    color: white;
+  }
+  &:active {
+    background-color: darken($flg-red, 15%) !important;
+  }
+}
+
+.btn-green {
+  color: white;
+  background-color: $flg-green;
+  &:hover {
+    background-color: darken($flg-green, 10%);
+  }
+  &:focus {
+    background-color: darken($flg-green, 10%);
+    color: white;
+  }
+  &:active {
+    background-color: darken($flg-green, 15%) !important;
+  }
+}
+
+.btn-gold {
+  color: white;
+  background-color: $flg-gold;
+  &:hover {
+    background-color: darken($flg-gold, 10%);
+  }
+  &:focus {
+    background-color: darken($flg-gold, 10%);
+    color: white;
+  }
+  &:active {
+    background-color: darken($flg-gold, 15%) !important;
+  }
+}
