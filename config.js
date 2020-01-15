@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'The Township Initiative', // <title>
-  manifestName: 'Grayscale',
+  manifestName: 'Gavin Roderick Web Development',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
