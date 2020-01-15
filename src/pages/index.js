@@ -9,10 +9,8 @@ import SocialLinks from '../components/SocialLinks';
 import Breakdown from '../components/Breakdown';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
 import projImage1 from '../assets/images/writing.jpg';
 import projImage2 from '../assets/images/reading.jpg';
-import bgMaster from '../assets/images/bg.jpg';
 import jamie from "../assets/images/stock-man.jpg";
 
 const IndexPage = () => (
@@ -26,8 +24,8 @@ const IndexPage = () => (
           <h2 className="text-white mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="signup">
-            <a href="#about" className="btn btn-green">
+          <Scroll type="id" element="contact">
+            <a href="contact" className="btn btn-green">
               Get involved
             </a>
           </Scroll>
@@ -58,7 +56,7 @@ const IndexPage = () => (
 
 
     <section id="projects" className="projects-section bg-white">
-      <div className="container">
+      <div className="container" id="projects">
         <h2 className="text-white mb-4">Projects</h2>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
@@ -86,7 +84,7 @@ const IndexPage = () => (
             <img className="img-fluid" src={projImage2} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
-            <div className="bg-blue text-center h-100 project">
+            <div className="bg-green text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Keep Kids In School Scheme</h4>

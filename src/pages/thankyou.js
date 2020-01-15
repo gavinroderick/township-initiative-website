@@ -10,10 +10,10 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-white text-uppercase">Error 404</h1>
-          <h2 className="text-white mx-auto mt-2 mb-5">Page not found - have you got the right address?</h2>
+          <h1 className="mx-auto my-0 text-uppercase text-light">Thank you for your donation!</h1>
+          <h2 className="text-white mx-auto mt-2 mb-5">Click below to return and see how your donation is used</h2>
 
-          <Link to="/" className="btn btn-red">
+          <Link to="/" className="btn btn-green">
             Homepage
           </Link>
         </div>

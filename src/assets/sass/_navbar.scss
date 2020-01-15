@@ -1,30 +1,55 @@
 #mainNav {
   min-height: 56px;
-  background-color: $white;
+  background-color: $flg-gold;
+  color: white;
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: $primary;
-    border: 1px solid $primary;
+    color: white;
+    border: 2px solid white;
     &:focus {
       outline: none;
     }
   }
   .navbar-brand {
-    color: $black;
+    color: white;
     font-weight: 700;
     padding: .9rem 0;
   }
   .navbar-nav {
-    .nav-item {
+    .nav-link#about{
+      color: $flg-green;
       &:hover {
-        color: fade(white, 80%);
+        color: fade($flg-green, 80%);
         outline: none;
         background-color: transparent;
       }
       &:active,
-      &:focus {
+      &focus {outline: none;
+        background-color: transparent;
+      }
+    }
+    .nav-link#contact{
+      color: $flg-blue;
+      &:hover {
+        color: fade($flg-blue, 80%);
         outline: none;
+        background-color: transparent;
+      }
+      &:active,
+      &focus {outline: none;
+        background-color: transparent;
+      }
+    }
+    .nav-link#projects{
+      color: $flg-red;
+      &:hover {
+        color: fade($flg-red, 80%);
+        outline: none;
+        background-color: transparent;
+      }
+      &:active,
+      &focus {outline: none;
         background-color: transparent;
       }
     }
@@ -128,5 +153,8 @@
         }
       }
     }
+  }
+  .fa-bars{
+    padding-left: 5px;
   }
 }

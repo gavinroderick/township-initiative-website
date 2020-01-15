@@ -16,19 +16,20 @@ export default function Subscribe() {
           </div>
           <div className="col-xl-4 col-lg-7">
             <table className="table text-center table-light table-border">
-              <tr>
-                <td>£££xxx provides yyy</td>
-              </tr>
-              <tr>
-                <td>£££xxx provides yyy</td>
-              </tr>
-              <tr>
-                <td>£££xxx provides yyy</td>
-              </tr>
-              <tr>
-                <td>£££xxx provides yyy</td>
-              </tr>
-
+              <tbody>
+                <tr>
+                  <td>£££xxx provides yyy</td>
+                </tr>
+                <tr>
+                  <td>£££xxx provides yyy</td>
+                </tr>
+                <tr>
+                  <td>£££xxx provides yyy</td>
+                </tr>
+                <tr>
+                  <td>£££xxx provides yyy</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
