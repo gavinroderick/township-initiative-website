@@ -38,7 +38,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Our Mission</h2>
+            <h1 className="text-white mb-4">Our Mission</h1>
             <p className="text-white mission-text">
               At the Township Initiative our approach is two-fold: to give children the chance to go to school, and to create conditions
               that keep them there.</p>
