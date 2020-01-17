@@ -11,4 +11,19 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  .project-text {
+    padding: 3rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $flg-gold;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+  .donation-table{
+    height: inherit;
+  }
 }

@@ -36,12 +36,13 @@ const IndexPage = () => (
 
     <section id="about" className="about-section text-center">
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center mb-5 mb-lg-0">
           <div className="col-lg-8 mx-auto">
             <h1 className="text-white mb-4">Our Mission</h1>
             <p className="text-white mission-text">
               At the Township Initiative our approach is two-fold: to give children the chance to go to school, and to create conditions
-              that keep them there.</p>
+              that keep them there.
+            </p>
             <hr/>
             <p className="text-white mission-text">
               The Township Initiative works to create conditions that keep disadvantaged children in school. Just 1 in 3 of those who start
@@ -63,7 +64,7 @@ const IndexPage = () => (
             <img className="img-fluid" src={projImage1} alt="" />
           </div>
           <div className="col-lg-6">
-            <div className="bg-red text-center h-100 project">
+            <div className="bg-blue text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Our Scholarship Scheme</h4>
@@ -84,7 +85,7 @@ const IndexPage = () => (
             <img className="img-fluid" src={projImage2} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
-            <div className="bg-green text-center h-100 project">
+            <div className="bg-red text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Keep Kids In School Scheme</h4>
@@ -106,27 +107,31 @@ const IndexPage = () => (
     <section id="about-us" className="projects-section bg-blue">
       <div className="container">
         <h2 className="text-white mb-4 text-right">About Us</h2>
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-4 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={jamie} alt="" />
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-4">
+            <img className="img-fluid" src={jamie} alt="" />
           </div>
-          <div className="col-xl-8 col-lg-5">
-            <div className="featured-text text-center text-lg-right">
-              <p className="text-white mb-0">
-              The Township Initiative is run by its founder and a team of experienced trustees.
-              <br/><br/>
-              I’m Jamie - a student at The University of Edinburgh from London. Both sides of my family are from Cape Town, and
-              so I spent a lot of time in the city growing up. I found myself fascinated by the creativity, warmth and raw potential of
-              the young South African’s that I met, but equally saddened by how many brilliant young people found themselves having to drop
-              out of school.
-
-              Taking inspiration from the brilliant work done by so many NGO’s in the city, I set up The Township Initiative
-              in 2015 to join the effort to improve social mobility in the townships.
-              </p>
+          <div className="col-lg-8">
+            <div className="bg-green text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <p className="mb-0 text-white">
+                    The Township Initiative is run by its founder and a team of experienced trustees.
+                    <br/><br/>
+                    I’m Jamie - a student at The University of Edinburgh from London. Both sides of my family are from Cape Town, and
+                    so I spent a lot of time in the city growing up. I found myself fascinated by the creativity, warmth and raw potential of
+                    the young South African’s that I met, but equally saddened by how many brilliant young people found themselves having to drop
+                    out of school.
+                    <br/><br/>
+                    Taking inspiration from the brilliant work done by so many NGO’s in the city, I set up The Township Initiative
+                    in 2015 to join the effort to improve social mobility in the townships.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
