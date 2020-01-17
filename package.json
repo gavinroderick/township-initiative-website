@@ -26,7 +26,7 @@
   },
   "scripts": {
     "develop": "gatsby develop",
-    "start": "npm run clean && gatsby build",
+    "start": "npm run clean && gatsby build && gatsby serve",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
