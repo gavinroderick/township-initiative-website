@@ -11,7 +11,7 @@ import Header from '../components/Header';
 
 import projImage1 from '../assets/images/writing.jpg';
 import projImage2 from '../assets/images/reading.jpg';
-import jamie from "../assets/images/stock-man.jpg";
+import jamie from "../assets/images/jamie.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -56,7 +56,7 @@ const IndexPage = () => (
     </section>
 
 
-    <section id="projects" className="projects-section bg-white">
+    <section id="projectos" className="projects-section bg-white">
       <div className="container" id="projects">
         <h2 className="text-white mb-4">Projects</h2>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -118,14 +118,16 @@ const IndexPage = () => (
                   <p className="mb-0 text-white">
                     The Township Initiative is run by its founder and a team of experienced trustees.
                     <br/><br/>
-                    I’m Jamie - a student at The University of Edinburgh from London. Both sides of my family are from Cape Town, and
-                    so I spent a lot of time in the city growing up. I found myself fascinated by the creativity, warmth and raw potential of
-                    the young South African’s that I met, but equally saddened by how many brilliant young people found themselves having to drop
-                    out of school.
+                    I’m Jamie, a student at Imperial College Business School from London. Both sides of my family are from Cape Town, 
+                    and so I spent a lot of time in the city growing up. I found myself fascinated by the creativity, warmth and raw 
+                    potential of the young South African’s that I met. However, I was equally saddened by how many brilliant young people 
+                    found themselves having to drop out of school.
                     <br/><br/>
-                    Taking inspiration from the brilliant work done by so many NGO’s in the city, I set up The Township Initiative
-                    in 2015 to join the effort to improve social mobility in the townships.
+                    Taking inspiration from the brilliant work done by so many NGO’s in the city, I set up The Township Initiative 
+                    in 2017 to join the effort to improve social mobility in the townships. 
                   </p>
+
+
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
