@@ -1,4 +1,4 @@
-.projects-section#projects {
+.projects-section#projects-section {
   // background: linear-gradient(
   //     to bottom,
   //     #{fade-out($flg-green, .1)} 95%,
@@ -8,10 +8,11 @@
   //   url('../images/bg-signup.jpg');
   background: linear-gradient(
       to bottom,
-      #{fade-out($flg-green, .1)},
-      #{fade-out($flg-green, .1) 50%},
-      $flg-blue),
-      url('../images/bg-signup.jpg');
+      #{fade-out($flg-green, 0.1)},
+      #{fade-out($flg-green, 0.1) 50%},
+      $flg-blue
+    ),
+    url('../images/bg-signup.jpg');
   padding: 6rem 0;
   .featured-text {
     padding: 2rem;
@@ -27,11 +28,15 @@
       padding: 5rem;
       hr {
         border-color: $flg-gold;
-        border-width: .25rem;
+        border-width: 0.25rem;
         width: 30%;
       }
     }
   }
+}
+.project:hover{
+  text-decoration: underline;
+  text-decoration-color: white !important;
 }
 
 .projects-section#about-us {
@@ -50,10 +55,23 @@
       padding: 5rem;
       hr {
         border-color: $flg-gold;
-        border-width: .25rem;
+        border-width: 0.25rem;
         width: 30%;
       }
     }
   }
 }
 
+.linkspan {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+
+  /* fixes overlap error in IE7/8, 
+       make sure you have an empty gif */
+  // background-image: url('empty.gif');
+}

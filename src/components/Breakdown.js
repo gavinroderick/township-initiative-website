@@ -23,16 +23,16 @@ export default function Subscribe() {
             <table className="table text-center table-light table-border">
               <tbody>
                 <tr>
-                  <td>£££xxx provides yyy</td>
+                  <td>£80 provides 35 lessons a year with qualified tutors</td>
                 </tr>
                 <tr>
-                  <td>£££xxx provides yyy</td>
+                  <td>Lessons take place after school</td>
                 </tr>
                 <tr>
-                  <td>£££xxx provides yyy</td>
+                  <td>50 children taught in small groups</td>
                 </tr>
                 <tr>
-                  <td>£££xxx provides yyy</td>
+                  <td>Duration of each lesson is 80 minutes</td>
                 </tr>
               </tbody>
             </table>

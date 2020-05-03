@@ -1,9 +1,10 @@
-.about-section{
+.our-mission-section{
   padding-top: 2rem;
+  padding-bottom: 2rem;
   background: linear-gradient(to bottom, 
-    #{fade-out($flg-gold, .0)} 0%,
-    #{fade-out($flg-gold, .1)} 75%,
-    #{fade-out($flg-green, .01)});
+    #{fade-out($flg-green, 0.1)} 0%,
+    #{fade-out($flg-green, 0.1)} 75%,
+    #{fade-out($flg-green, 0.1)});
   p {
     margin-bottom: 5rem;
     text-shadow: 1px 1px 4px #000

@@ -24,7 +24,7 @@ const IndexPage = () => (
           <h2 className="text-white mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="contact">
+          <Scroll type="id" element="contact-section">
             <a href="contact" className="btn btn-green">
               Get involved
             </a>
@@ -34,7 +34,7 @@ const IndexPage = () => (
     </header>
 
 
-    <section id="about" className="about-section text-center">
+    <section id="our-mission-section" className="our-mission-section text-center">
       <div className="container">
         <div className="row justify-content-center mb-5 mb-lg-0">
           <div className="col-lg-8 mx-auto">
@@ -56,9 +56,9 @@ const IndexPage = () => (
     </section>
 
 
-    <section id="projectos" className="projects-section bg-white">
+    <section id="projects-section" className="projects-section bg-white">
       <div className="container" id="projects">
-        <h2 className="text-white mb-4">Projects</h2>
+        <h2 className="text-white mb-4">Our Projects</h2>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={projImage1} alt="" />
@@ -67,7 +67,10 @@ const IndexPage = () => (
             <div className="bg-blue text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Our Scholarship Scheme</h4>
+                  <a href="/scholarship-scheme">
+                    <h4 className="text-white project">Our Scholarship Scheme</h4>
+                    <span className="linkspan"></span>
+                  </a>
                   <p className="mb-0 text-white">
                   We provide scholarships for disadvantaged children to attend Wellington Preparatory School. Wellington
                   is a unique private co-educational school in the Western Cape with an holistic approach and outstanding
@@ -88,7 +91,10 @@ const IndexPage = () => (
             <div className="bg-red text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
+                <a href="/keep-kids-in-school">
                   <h4 className="text-white">Keep Kids In School Scheme</h4>
+                  <span className="linkspan"></span>
+                </a>
                   <p className="mb-0 text-white">
                     Together with Education Without Borders, we provide crucial English lessons to
                     Xhosa speaking school children that radically reduce dropout rates

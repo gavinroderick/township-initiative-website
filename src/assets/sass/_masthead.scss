@@ -47,3 +47,81 @@
     }
   }
 }
+
+
+.masthead-projects#scholarship {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($flg-gold, 0.9)} 0%,
+      #{fade-out($flg-gold, 0.5)} 75%,
+      $flg-gold 100%
+    ),
+    url('../images/group.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-family: 'Varela Round';
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 4px #000;
+  }
+  .facts {
+   
+  }
+
+  @media (min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+  }
+  .card{
+    background-color: rgba(0,20,137, 0.9);
+    padding: 1%;
+  }
+}
+
+
+.masthead-projects#kkis {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 7rem 0;
+  color: white;
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($flg-gold, 0.9)} 0%,
+      #{fade-out($flg-gold, 0.5)} 75%,
+      $flg-gold 100%
+    ),
+    url('../images/group.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-family: 'Varela Round';
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 4px #000;
+  }
+ 
+
+  @media (min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+  }
+  .card{
+    background-color: rgba(244,60,49, 0.9);
+    padding: 1%;
+  }
+}
+
+.donation-table{
+  background-color: #f0f8fe;
+  height: inherit;
+}

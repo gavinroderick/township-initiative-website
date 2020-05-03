@@ -65,7 +65,29 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="about"
+                  element="our-mission-section"
+                >
+                  <a className="nav-link" id="our-mission" href="#our-mission">
+                    Our Mission
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="projects-section"
+                >
+                  <a className="nav-link" id="projects" href="#projects">
+                    Our Projects
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="about-us"
                 >
                   <a className="nav-link" id="about" href="#about">
                     About
@@ -76,20 +98,9 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="projectos"
+                  element="contact-section"
                 >
-                  <a className="nav-link" id="projectos" href="#projectos">
-                    Projects
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="signup"
-                >
-                  <a className="nav-link" id="contact" href="#signup">
+                  <a className="nav-link" id="contact" href="#contact">
                     Contact
                   </a>
                 </Scroll>
